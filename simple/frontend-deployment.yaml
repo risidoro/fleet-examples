@@ -22,4 +22,6 @@ spec:
             cpu: 100m
             memory: 100Mi
         ports:
-        - containerPort: 80
+        - name: http
+          containerPort: 8090
+          protocol: TCP
